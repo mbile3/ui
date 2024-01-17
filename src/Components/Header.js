@@ -21,7 +21,7 @@ function useWindowSixe() {
   
   return size;
 }
-
+/////
 function Header() {
   const history = useHistory();
   const itemInCart = useSelector((state) => state.Reducer.totalItems);
